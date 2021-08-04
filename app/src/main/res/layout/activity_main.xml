@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_Header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Booking Kursi"
+        android:shadowColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="50dp"
+        android:textColor="#535A73"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-smallcaps">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/tv_Nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Nama : "/>
+        <EditText
+            android:id="@+id/et_Nama"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan Nama"
+            android:textSize="20sp"
+            android:inputType="text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/tv_Nomor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Nomor Kursi : "/>
+        <EditText
+            android:id="@+id/et_Nomor"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan Nomor"
+            android:textSize="20sp"
+            android:inputType="text" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_Enter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#95806F"
+        android:text="Enter"/>
+
+    <TextView
+        android:id="@+id/tv_Final"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:textColor="#95806F"/>
+
+</LinearLayout>
